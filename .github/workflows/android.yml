@@ -26,5 +26,4 @@ jobs:
     - name: Build with Gradle
       run: |
             sudo ./gradlew build
-            chmod +x /root/.gradle/wrapper/dists/gradle-4.1-all/bzyivzo6n839fup2jbap0tjew/gradle-4.1/bin/gradle
 
