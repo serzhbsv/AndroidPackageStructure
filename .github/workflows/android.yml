@@ -27,3 +27,9 @@ jobs:
       run: |
             sudo ./gradlew build
 
+    - uses: actions/upload-artifact@v4
+      with:
+        name: Archive
+        path: |
+               ./*
+               app/*
